@@ -1,0 +1,11 @@
+Manual Test:
+Start Zookeeper and Kafka broker
+
+Start your producer (kafka_producer.py)
+
+In terminal, run:
+
+kafka-console-consumer --bootstrap-server localhost:9092 --topic traffic-topic --from-beginning
+
+output:
+You should see JSON messages printed. If not, check logs in kafka_producer.py.

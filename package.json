@@ -1,0 +1,22 @@
+{
+  "name": "rtta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-frontend": "jest ./test-cases/test_frontend.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^28.0.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+  "testEnvironment": "jest-environment-jsdom",
+  "testMatch": [
+    "**/test-cases/**/*.js"
+  ]
+  }
+}
